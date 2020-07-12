@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengxi.github.io</id>
     <title>web前端</title>
-    <updated>2020-07-12T01:29:38.140Z</updated>
+    <updated>2020-07-12T05:19:01.358Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengxi.github.io"/>
     <link rel="self" href="https://zhengxi.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://zhengxi.github.io/images/avatar.png</logo>
     <icon>https://zhengxi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, web前端</rights>
+    <entry>
+        <title type="html"><![CDATA[css-2D/3D]]></title>
+        <id>https://zhengxi.github.io/post/css-2d3d/</id>
+        <link href="https://zhengxi.github.io/post/css-2d3d/">
+        </link>
+        <updated>2020-07-12T02:47:48.000Z</updated>
+        <content type="html"><![CDATA[<p>1.2D[正方形，没有厚度]:<br>
+transform:translate(x,y,z) rotate(x,y,z) scale(x,y,z) skew(x,y,z)<br>
+除了translate的Z不一样 其他的Z操作==X z是视觉轴<br>
+transform-orign:x y<br>
+x=keyWord /px<br>
+y=keyWord/px<br>
+perspective: 528px;<br>
+是一个观察眼 设置在被观察元素的父元素上，用来实现近大远小<br>
+2.3D[正方体，有厚度]<br>
+transform-style: preserve-3d/flat;<br>
+开启3D计算模式<br>
+3.正方体绘制规律<br>
+6个盒子 每个盒子宽度为200，则需要不同方向移动200/2【因为旋转是绕着中心点旋转】</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[html]]></title>
         <id>https://zhengxi.github.io/post/1/</id>

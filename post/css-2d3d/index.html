@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | web前端</title>
+<title>css-2D/3D | web前端</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,11 @@
 
 
 
-    <meta name="description" content="我的web学习之路">
+    <meta name="description" content="1.2D[正方形，没有厚度]:
+transform:translate(x,y,z) rotate(x,y,z) scale(x,y,z) skew(x,y,z)
+除了translate的Z不一样 其他的Z操作==X z是视觉轴
+trans..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -82,10 +86,42 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">css-2D/3D</h2>
+            <div class="post-date">2020-07-12</div>
             
+            <div class="post-content" v-pre>
+              <p>1.2D[正方形，没有厚度]:<br>
+transform:translate(x,y,z) rotate(x,y,z) scale(x,y,z) skew(x,y,z)<br>
+除了translate的Z不一样 其他的Z操作==X z是视觉轴<br>
+transform-orign:x y<br>
+x=keyWord /px<br>
+y=keyWord/px<br>
+perspective: 528px;<br>
+是一个观察眼 设置在被观察元素的父元素上，用来实现近大远小<br>
+2.3D[正方体，有厚度]<br>
+transform-style: preserve-3d/flat;<br>
+开启3D计算模式<br>
+3.正方体绘制规律<br>
+6个盒子 每个盒子宽度为200，则需要不同方向移动200/2【因为旋转是绕着中心点旋转】</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://zhengxi.github.io/post/1/">
+                  <h3 class="post-title">
+                    html
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
       </div>
     </div>
