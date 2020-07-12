@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengxi.github.io</id>
     <title>web前端</title>
-    <updated>2020-07-12T01:12:40.546Z</updated>
+    <updated>2020-07-12T01:20:39.768Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengxi.github.io"/>
     <link rel="self" href="https://zhengxi.github.io/atom.xml"/>
@@ -33,7 +33,19 @@ em/i/u/strong</p>
         <content type="html"><![CDATA[<p>1.块盒，行盒，行内块盒<br>
 块盒(block)：独占一行，css样式全部生效，宽度默认为父元素的宽度，高度有内容决定或者通过height设置，块盒无基线;eg:div,ul,ol,table,form..<br>
 行盒(inline)：共占一行，css样式部分生效，比如垂直方向上的margin+padding就不生效，宽度高度默认有内容决定，不可以通过width，height调节，可以通过font-size.font--family/line-height进行间接调节，行盒基线默认在文字底部;eg:a/span/em/i/strong<br>
-行内块盒(inline-block):共占一行，css样式全部生效，宽度高度默认有内容决定，可以通过width，height进行调节，****行内块与行内块有空白字符隔开(可以通过父元素font-size:0进行消除)**；eg:img/video/audio/form全家桶</p>
+行内块盒(inline-block):共占一行，css样式全部生效，宽度高度默认有内容决定，可以通过width，height进行调节，****行内块与行内块有空白字符隔开(可以通过父元素font-size:0进行消除)**；eg:img/video/audio/form全家桶<br>
+2.选择器<br>
+id                                      100<br>
+类，伪类，属性                  10<br>
+元素，微元素                      1<br>
+通配符                                 0<br>
+继承                                    没有<br>
+important                           1000+<br>
+<strong>属性值计算过程</strong><br>
+1.确定声明值    确定用户声明和浏览器默认值;(用户声明冲突的情况走层叠冲突)<br>
+2.层叠冲突  进行权值计算<br>
+3.继承 文字属性继承<br>
+4.默认</p>
 ]]></content>
     </entry>
 </feed>
