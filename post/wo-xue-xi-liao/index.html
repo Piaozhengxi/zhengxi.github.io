@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" >
 
-<title>我学习了 | web前端</title>
+<title>css | web前端</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zhengxi.github.io/favicon.ico?v=1594515586630">
+<link rel="shortcut icon" href="https://zhengxi.github.io/favicon.ico?v=1594516356647">
 <link rel="stylesheet" href="https://zhengxi.github.io/styles/main.css">
 
 
@@ -18,8 +18,9 @@
 
 
 
-    <meta name="description" content="开始了
-" />
+    <meta name="description" content="1.块盒，行盒，行内块盒
+块盒(block)：独占一行，css样式全部生效，宽度默认为父元素的宽度，高度有内容决定或者通过height设置，块盒无基线;eg:div,ul,ol,table,form..
+行盒(inline)：共占一行，cs..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -29,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://zhengxi.github.io">
-        <img src="https://zhengxi.github.io/images/avatar.png?v=1594515586630" class="site-logo">
+        <img src="https://zhengxi.github.io/images/avatar.png?v=1594516356647" class="site-logo">
         <h1 class="site-title">web前端</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -85,11 +86,14 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">我学习了</h2>
+            <h2 class="post-title">css</h2>
             <div class="post-date">2020-07-10</div>
             
             <div class="post-content" v-pre>
-              <p>开始了</p>
+              <p>1.块盒，行盒，行内块盒<br>
+块盒(block)：独占一行，css样式全部生效，宽度默认为父元素的宽度，高度有内容决定或者通过height设置，块盒无基线;eg:div,ul,ol,table,form..<br>
+行盒(inline)：共占一行，css样式部分生效，比如垂直方向上的margin+padding就不生效，宽度高度默认有内容决定，不可以通过width，height调节，可以通过font-size.font--family/line-height进行间接调节，行盒基线默认在文字底部;eg:a/span/em/i/strong<br>
+行内块盒(inline-block):共占一行，css样式全部生效，宽度高度默认有内容决定，可以通过width，height进行调节，****行内块与行内块有空白字符隔开(可以通过父元素font-size:0进行消除)**；eg:img/video/audio/form全家桶</p>
 
             </div>
             
