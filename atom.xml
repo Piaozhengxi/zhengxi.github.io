@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengxi.github.io</id>
     <title>web前端</title>
-    <updated>2020-07-12T07:15:01.738Z</updated>
+    <updated>2020-07-13T07:12:08.847Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengxi.github.io"/>
     <link rel="self" href="https://zhengxi.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://zhengxi.github.io/images/avatar.png</logo>
     <icon>https://zhengxi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, web前端</rights>
+    <entry>
+        <title type="html"><![CDATA[css-背景]]></title>
+        <id>https://zhengxi.github.io/post/css-bei-jing/</id>
+        <link href="https://zhengxi.github.io/post/css-bei-jing/">
+        </link>
+        <updated>2020-07-13T03:33:48.000Z</updated>
+        <content type="html"><![CDATA[<p>background:color url repeat attachment position/size<br>
+1.图片定位<br>
+background-orign:<br>
+默认 padding-box<br>
+content-box<br>
+border-box<br>
+告知浏览器从哪个地方显示图片<br>
+2.背景色定位<br>
+background-clip<br>
+默认 border-box<br>
+padding-box<br>
+content-box<br>
+告知浏览器 背景色从哪里绘制<br>
+3.背景重铺写法<br>
+background-image: url(&quot;xx.jpg&quot;),url(&quot;xx.jpg&quot;);<br>
+background-repeat: no-repeat,no-repeat;<br>
+background-position: left top ,right top;</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[企业开发总结]]></title>
         <id>https://zhengxi.github.io/post/qi-ye-kai-fa-zong-jie/</id>
