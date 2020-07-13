@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>css-背景 | web前端</title>
+<title>写网页的结构 | web前端</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,13 +18,9 @@
 
 
 
-    <meta name="description" content="background:color url repeat attachment position/size
-1.图片定位
-background-orign:
-默认 padding-box
-content-box
-border-box
-告知浏览..." />
+    <meta name="description" content="1.通常网页分为头(top)，颈(banner)，肚(content)，底(footer);宽度为100%
+2.先将这几部分划分来然后里面的内容用top/nav/content/bottom -in承载
+3.头部通常是有logo,导航栏,登..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -90,36 +86,31 @@ border-box
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">css-背景</h2>
+            <h2 class="post-title">写网页的结构</h2>
             <div class="post-date">2020-07-13</div>
             
             <div class="post-content" v-pre>
-              <p>background:color url repeat attachment position/size<br>
-1.图片定位<br>
-background-orign:<br>
-默认 padding-box<br>
-content-box<br>
-border-box<br>
-告知浏览器从哪个地方显示图片<br>
-2.背景色定位<br>
-background-clip<br>
-默认 border-box<br>
-padding-box<br>
-content-box<br>
-告知浏览器 背景色从哪里绘制<br>
-3.背景重铺写法<br>
-background-image: url(&quot;xx.jpg&quot;),url(&quot;xx.jpg&quot;);<br>
-background-repeat: no-repeat,no-repeat;<br>
-background-position: left top ,right top;</p>
+              <p>1.通常网页分为头(top)，颈(banner)，肚(content)，底(footer);宽度为100%<br>
+2.先将这几部分划分来然后里面的内容用top/nav/content/bottom -in承载<br>
+3.头部通常是有logo,导航栏,登录区域三部分<br>
+div.top-left:logo<br>
+div.right;导航栏(div.nav)+登录区域(div.logo)；<br>
+eg:<br>
+div.top<br>
+div.top-in<br>
+div.left                 div.right<br>
+h1.logo                 ul.top-nav+ul.logo<br>
+a                           li               li*3    4.banner是指广告 代表具有宣传内容<br>
+div.banner&gt;ul.nav+div.firgure[导航栏]+div.video</p>
 
             </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://zhengxi.github.io/post/qi-ye-kai-fa-zong-jie/">
+                <a href="https://zhengxi.github.io/post/css-bei-jing/">
                   <h3 class="post-title">
-                    企业开发总结
+                    css-背景
                   </h3>
                 </a>
               </div>

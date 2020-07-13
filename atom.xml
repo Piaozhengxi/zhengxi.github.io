@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhengxi.github.io</id>
     <title>web前端</title>
-    <updated>2020-07-13T07:12:08.847Z</updated>
+    <updated>2020-07-13T08:41:16.690Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhengxi.github.io"/>
     <link rel="self" href="https://zhengxi.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://zhengxi.github.io/images/avatar.png</logo>
     <icon>https://zhengxi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, web前端</rights>
+    <entry>
+        <title type="html"><![CDATA[写网页的结构]]></title>
+        <id>https://zhengxi.github.io/post/xie-wang-ye-de-jie-gou/</id>
+        <link href="https://zhengxi.github.io/post/xie-wang-ye-de-jie-gou/">
+        </link>
+        <updated>2020-07-13T07:12:52.000Z</updated>
+        <content type="html"><![CDATA[<p>1.通常网页分为头(top)，颈(banner)，肚(content)，底(footer);宽度为100%<br>
+2.先将这几部分划分来然后里面的内容用top/nav/content/bottom -in承载<br>
+3.头部通常是有logo,导航栏,登录区域三部分<br>
+div.top-left:logo<br>
+div.right;导航栏(div.nav)+登录区域(div.logo)；<br>
+eg:<br>
+div.top<br>
+div.top-in<br>
+div.left                 div.right<br>
+h1.logo                 ul.top-nav+ul.logo<br>
+a                           li               li*3    4.banner是指广告 代表具有宣传内容<br>
+div.banner&gt;ul.nav+div.firgure[导航栏]+div.video</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[css-背景]]></title>
         <id>https://zhengxi.github.io/post/css-bei-jing/</id>
@@ -42,7 +62,9 @@ background-position: left top ,right top;</p>
         </link>
         <updated>2020-07-12T07:03:37.000Z</updated>
         <content type="html"><![CDATA[<p>1.动画+2D/3D<br>
-1.定义动画要保障变换的属性值写在不变化得属性值得前面</p>
+1.定义动画要保障变换的属性值写在不变化得属性值得前面<br>
+2.奇淫技巧<br>
+当图片的宽度大于父元素的宽度，想让图片居中显示，需要父元素text-align:center,子元素设置margin:0 auto</p>
 ]]></content>
     </entry>
     <entry>
